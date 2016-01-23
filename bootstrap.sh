@@ -16,7 +16,8 @@ npm install forever -g
 npm install nodemon -g
 npm install express -g
 
-apt-get upgrade
+apt-get -y upgrade
+
 
 if ! [ -L /var/www ]; then
   rm -rf /var/www
