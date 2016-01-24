@@ -17,7 +17,7 @@ Vagrant.configure(2) do |config|
   # boxes at https://atlas.hashicorp.com/search.
   # config.vm.box = "hashicorp/precise64"
   # config.vm.box = "ubuntu/trusty64"
-  config.vm.box = "scotch/box"
+  config.vm.box = ""
   config.vm.hostname = "hyunjae"
 
   # Disable automatic box update checking. If you disable this, then
